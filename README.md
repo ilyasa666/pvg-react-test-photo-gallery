@@ -6,7 +6,7 @@ React Photo Gallery is a web application that displays a gallery of photos fetch
 
 - Fetches and displays photos from the Unsplash API.
 - Implements infinite scrolling to load more photos as the user scrolls.
-- Provides a search bar with autocomplete functionality to search for specific photos.
+- Provides a search bar to search for specific photos.
 - Allows users to share photos on social media platforms.
 
 ## Technologies Used
@@ -16,7 +16,6 @@ React Photo Gallery is a web application that displays a gallery of photos fetch
 - React Lazy Load Image: Component for lazy-loading images to improve performance.
 - Material-UI: UI component library for React.
 - Axios: Promise-based HTTP client for making API requests.
-
 
 ## Installation
 
