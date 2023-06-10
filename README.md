@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# React Photo Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Photo Gallery is a web application that displays a gallery of photos fetched from the Unsplash API. It provides features like infinite scrolling and search
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Fetches and displays photos from the Unsplash API.
+- Implements infinite scrolling to load more photos as the user scrolls.
+- Provides a search bar with autocomplete functionality to search for specific photos.
+- Allows users to share photos on social media platforms.
 
-### `yarn start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React: JavaScript library for building user interfaces.
+- Framer Motion: Animation library for creating smooth and interactive animations.
+- React Lazy Load Image: Component for lazy-loading images to improve performance.
+- Material-UI: UI component library for React.
+- Axios: Promise-based HTTP client for making API requests.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   `git clone https://github.com/your-username/react-photo-gallery.git`
+2. Install the dependencies:
+   `yarn install`
+3. Obtain an Unsplash Access Key:
 
-### `yarn build`
+- Visit the Unsplash Developers page.
+- Sign in or create a new account.
+- Create a new application to generate an access key.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Update the Access Key:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Open the `src/services/api/index.ts` file.
+- Replace `$token` with your actual Unsplash access key.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Start the application:
+   `yarn start`
+6. Open your browser and visit (http://localhost:3000) to see the app.
 
-### `yarn eject`
+7. Open `src/components` to modoify the components
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- The app will initially display a grid of photos fetched from the Unsplash API.
+- Scroll down to load more photos through infinite scrolling.
+- Use the search bar to search for specific photos.
+- Click on a photo to view detail photo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to submit a pull request.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Make sure to update the installation steps and add any additional details or customizations based on your specific application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to modify the content and structure of the `README.md` file to suit your needs.
