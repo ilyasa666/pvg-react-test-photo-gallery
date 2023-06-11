@@ -20,7 +20,7 @@ React Photo Gallery is a web application that displays a gallery of photos fetch
 ## Installation
 
 1. Clone the repository:
-   `git clone https://github.com/your-username/react-photo-gallery.git`
+   `git clone https://github.com/ilyasa666/pvg-react-test-photo-gallery.git`
 2. Install the dependencies:
    `yarn install`
 3. Obtain an Unsplash Access Key:
